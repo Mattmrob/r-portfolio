@@ -1,0 +1,31 @@
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    background-image: url(./assets/imgs/banner.jpg);
+    background-size: cover;
+}
+
+.header-name {
+    margin: 0px;
+    padding: 0px 0px 10px 10px;
+    background-color: red;
+}
+
+.header {
+    background-color: blue;
+}
+
+.navlink {
+    font-size: 1.7em;
+    margin: 0px;
+    padding: 0px 10px 10px 0;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.footerlink {
+    color: red;
+}
