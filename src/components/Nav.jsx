@@ -1,4 +1,3 @@
-// Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import Header from './Header';
 
