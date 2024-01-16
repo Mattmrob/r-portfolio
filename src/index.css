@@ -1,4 +1,12 @@
 
+:root {
+    --headerb: rgb(255,255,255,.8);
+}
+
+
+/* ------------ HEADER STARTS HERE --------------- */
+
+/* contains everything */
 .header-container {
     display: flex;
     flex-flow: column wrap;
@@ -10,20 +18,36 @@
     background-size: cover;
 }
 
-.navlink {
-    font-size: 2em;
-    margin: 20px 10px 0px 10px;
-    padding: 30px 10px 10px 10px;
-    color: white;
-    background-color: rebeccapurple;
+/* contains navbar */
+.nav-container {
+    display: flex;
+    background-color: var(--headerb);
+    margin: 30px 0px 0px 0px;
+    padding: 8px 20px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
 }
 
+.navlink {
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    margin: 0px 15px 0px 15px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: underline 2.5px;
+}
+
+a:hover.navlink {
+    color: grey;
+    text-decoration: underline 2.5px grey;
+}
+
+/* contains header name and logo */
 .header-n-container {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255,255,255,.8);
+    background-color: var(--headerb);
     padding: 22px 25px 22px 25px;
     margin: 20px 50px 20px 20px;
     border-radius: 30px;
@@ -40,6 +64,8 @@
     margin: 12px 0px 0px 0px;
     color: black;
 }
+
+/* ------------ HEADER ENDS HERE --------------- */
 
 .footerlink {
     color: red;
