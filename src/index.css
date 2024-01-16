@@ -282,9 +282,30 @@ ul {
 
 }
 
-
 /* ------------ HEADER ENDS HERE --------------- */
 
+
+/* ------------ FOOTER STARTS HERE --------------- */
+
+.footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.footerlogo {
+    height: 80px;
+    width: auto;
+    margin: 15px;
+}
 .footerlink {
     color: red;
 }
+
+@media (max-width: 520px) {
+    .footerlogo {
+        height: 50px;
+    }
+}
+
+/* ------------ FOOTER ENDS HERE --------------- */
