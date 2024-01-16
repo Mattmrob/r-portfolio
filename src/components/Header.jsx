@@ -6,9 +6,8 @@ export default function Header() {
     <>
 
   <div class="header-container">
-    
-      <h2 class="header-name">Matthew M Roberts</h2>
 
+    <div class="nav-container">
       <Nav
         links={[
 
@@ -30,7 +29,12 @@ export default function Header() {
 
         ]}
       />
-
+    </div>
+    
+<div class='header-n-container'>
+  <img class="logoimg" src="./src/assets/imgs/mmrobertslogo.svg"></img>
+  <h2 class="header-name">Matthew M. Roberts</h2>
+</div>
   </div>
 
     </>
