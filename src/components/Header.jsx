@@ -5,36 +5,36 @@ export default function Header() {
   return (
     <>
 
-  <div class="header-container">
+  <div className="header-container">
 
-    <div class="nav-container">
+    <div className="nav-container">
       <Nav
         links={[
 
-          <Link key={1} class="navlink" to="/About">
+          <Link key={1} className="navlink" to="/About">
           About Me
           </Link>,
 
-          <Link key={2} class="navlink" to="/Portfolio">
+          <Link key={2} className="navlink" to="/Portfolio">
           Portfolio
           </Link>,
 
-          <Link key={3} class="navlink" to="/Contact">
+          <Link key={3} className="navlink" to="/Contact">
           Contact Me
           </Link>,
 
-          <Link key={4} class="navlink" to="/Resume">
+          <Link key={4} className="navlink" to="/Resume">
           Resume
           </Link>,
 
         ]}
       />
     </div>
-    
-<div class='header-n-container'>
-  <img class="logoimg" src="./src/assets/imgs/mmrobertslogo.svg"></img>
-  <h2 class="header-name">Matthew M. Roberts</h2>
-</div>
+
+    <div className='header-n-container'>
+      <img className="logoimg" src="./src/assets/imgs/mmrobertslogo.svg"></img>
+      <h2 className="header-name">Matthew M. Roberts</h2>
+    </div>
   </div>
 
     </>

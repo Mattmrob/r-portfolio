@@ -22,7 +22,7 @@
 .nav-container {
     display: flex;
     background-color: var(--headerb);
-    margin: 30px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
     padding: 8px 20px 0px 0px;
     border-radius: 20px 0px 0px 20px;
 }
@@ -49,7 +49,7 @@ a:hover.navlink {
     align-items: center;
     background-color: var(--headerb);
     padding: 22px 25px 22px 25px;
-    margin: 20px 50px 20px 20px;
+    margin: 20px 50px 35px 20px;
     border-radius: 30px;
 }
 
@@ -64,6 +64,224 @@ a:hover.navlink {
     margin: 12px 0px 0px 0px;
     color: black;
 }
+
+/* ////--- MEDIA BREAKPOINTS START ---//// */
+
+/* --- MEDIUM SIZE --- */
+@media (max-width: 1020px) {
+
+    /* contains everything */
+.header-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 300px;
+    width: 100%;
+    background-image: url(./assets/imgs/banner.jpg);
+    background-size: cover;
+}
+
+/* contains navbar */
+.nav-container {
+    display: flex;
+    background-color: var(--headerb);
+    margin: 25px 0px 0px 0px;
+    padding: 8px 10px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.navlink {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: black;
+    margin: 0px 12px 0px 12px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: underline 2.5px;
+}
+
+a:hover.navlink {
+    color: grey;
+    text-decoration: underline 2.5px grey;
+}
+
+/* contains header name and logo */
+.header-n-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headerb);
+    padding: 10px 15px 8px 15px;
+    margin: 10px 30px 25px 10px;
+    border-radius: 20px;
+}
+
+.logoimg {
+    width: 100px;
+    height: auto;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 2em;
+    margin: 8px 0px 0px 0px;
+    color: black;
+}
+
+}
+
+/* --- SMALL SIZE --- */
+@media (max-width: 645px) {
+
+    /* contains everything */
+.header-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: auto;
+    width: 100%;
+    background-image: url(./assets/imgs/banner.jpg);
+    background-size: cover;
+}
+
+/* contains navbar */
+.nav-container {
+    display: flex;
+    background-color: var(--headerb);
+    margin: 15px 0px 0px 0px;
+    padding: 8px 5px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.navlink {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+    margin: 0px 6px 0px 6px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: underline 2px;
+}
+
+a:hover.navlink {
+    color: grey;
+    text-decoration: underline 2px grey;
+}
+
+/* contains header name and logo */
+.header-n-container {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headerb);
+    padding: 8px 8px 8px 15px;
+    margin: 10px 0px 15px 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.logoimg {
+    width: 40px;
+    height: auto;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 10px 0px 0px;
+    color: black;
+}
+
+}
+
+/* --- SMALLEST SIZE (MOBILE) --- */
+@media (max-width: 520px) {
+
+ /* contains everything */
+.header-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-image: url(./assets/imgs/bannerempty.jpg);
+    background-size: cover;
+}
+
+/* contains navbar */
+.nav-container {
+    background-color: var(--headerb);
+    height: auto;
+    width: 100vw;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 0px;
+}
+
+/* contains individual nav items */
+.navitemcontainer {
+    display: flex;
+    width: 100vw;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navlink {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: black;
+    margin: 0px 6px 0px 6px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: underline 2px;
+}
+
+a:hover.navlink {
+    color: grey;
+    text-decoration: underline 2px grey;
+}
+
+/* contains header name and logo */
+.header-n-container {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color: var(--headerb);
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+    border-radius: 0px;
+}
+
+.logoimg {
+    width: 40px;
+    height: auto;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0px 10px 0px 0px;
+    color: black;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+}
+
 
 /* ------------ HEADER ENDS HERE --------------- */
 
