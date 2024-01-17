@@ -436,7 +436,7 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
     width: 100%;
     opacity: 1;
     margin: 5px;
-    border-bottom: 5px solid rgba(0,0,0,.5);
+    border-bottom: 5px solid rgba(0,0,0,1);
     border-radius: 20px;
     position: relative;
 }
@@ -451,7 +451,8 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
     width: 300px;
     padding: 20px 25px 20px 25px;
     border-radius: 20px;
-    background-color: rgba(225,225,225,.95);
+    background-color: rgba(225,225,225,1);
+    border-bottom: solid rgba(0,0,0,.7) 2px;
     opacity: 0;
 }
 

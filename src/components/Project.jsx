@@ -17,8 +17,14 @@ function Project(props) {
                 <h3>{project.title}</h3>
                 <p>{project.text}</p>
 
+
+              {project.github ? 
                 <p className="projectlink"><a target="_blank" href={project.github}>Github</a>
                 <a target="_blank" href={project.deployment}>Deployment</a></p>
+                :
+                <p className="projectlink">
+                <a target="_blank" href={project.deployment}>Deployment</a></p>
+              }
 
             </div>
           </div>
