@@ -5,6 +5,8 @@ function Project(props) {
             return(
           <div key={project.id}>
 
+            <div className="img-container">
+
             <img
             alt={project.title}
             className="p-img"
@@ -18,6 +20,8 @@ function Project(props) {
 
                 <a target="_blank" href={project.github}>Github</a>
                 <a target="_blank" href={project.deployment}>Deployment</a>
+
+            </div>
 
             </div>
           </div>

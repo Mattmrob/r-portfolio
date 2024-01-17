@@ -394,48 +394,64 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 
 /* ------------ PORTFOLIO STARTS HERE --------------- */
 
+.title2 {
+    text-align: center;
+    padding: 25px 0px 20px 0px;
+}
+
 .p-container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    width: 100vw;
-    margin: 0px;
-    background-color: red;
-}
-
-.p-project {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    flex-basis: 40%;
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     overflow: hidden;
 }
 
+.p-project {
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.img-container {
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
 .p-img {
+    object-fit: cover;
     width: 100%;
-    opacity: .5;
-    padding: 20px;
-    background-color: white;
+    opacity: 1;
+    margin: 5px;
+    border-bottom: 5px solid rgba(0,0,0,.5);
+    border-radius: 20px;
+    position: relative;
 }
 
 .p-t-container {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    right: 50%;
+    bottom: 50%;
     background-color: green;
+    width: 200px;
 }
 
 .p-t-container h3 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .p-t-container p {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .p-link {
