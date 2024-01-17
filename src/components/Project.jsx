@@ -1,10 +1,9 @@
 function Project(props) {
     return (
-      <ul className="p-container">
+      <ul className="p-project">
         {props.project.map((project) => {
             return(
-          <li classname="p-project" key={project.id}>
-            <p>{project.title}</p>
+          <div key={project.id}>
 
             <img
             alt={project.title}
@@ -14,19 +13,14 @@ function Project(props) {
 
             <div className="p-t-container">
 
-                <h3 className="p-title">
-                    {project.title}
-                </h3>
+                <h3>{project.title}</h3>
+                <p>{project.text}</p>
 
-                <p className="p-text">
-                    {project.text}
-                </p>
-
-                <a target="_blank" className="p-link" href={project.github}>Github</a>
-                <a target="_blank" className="p-link" href={project.deployment}>Deployment</a>
+                <a target="_blank" href={project.github}>Github</a>
+                <a target="_blank" href={project.deployment}>Deployment</a>
 
             </div>
-          </li>
+          </div>
             );
         })}
       </ul>
