@@ -7,9 +7,23 @@ a {
     color: black;
 }
 
-a:hover {
+p a:hover {
     color: grey;
 }
+
+/* ANIMATIONS */
+
+@keyframes hover {
+    0% {opacity: 1;}
+    100% {opacity: .8;}
+    }
+
+@keyframes navhover {
+    0% {opacity: 1;}
+    100% {opacity: .6;}
+    }
+
+/* ANIMATIONS END */
 
 /* ------------ HEADER STARTS HERE --------------- */
 
@@ -44,8 +58,12 @@ a:hover {
 }
 
 a:hover.navlink {
-    color: grey;
-    text-decoration: underline 2.5px grey;
+    /* color: grey;
+    text-decoration: underline 2.5px grey; */
+    animation-name: navhover;
+    animation-duration: .2s;
+    opacity: .6;
+    /* opacity: .8; */
 }
 
 /* contains header name and logo */
@@ -107,11 +125,6 @@ a:hover.navlink {
     text-decoration: underline 2.5px;
 }
 
-a:hover.navlink {
-    color: grey;
-    text-decoration: underline 2.5px grey;
-}
-
 /* contains header name and logo */
 .header-n-container {
     display: flex;
@@ -169,11 +182,6 @@ a:hover.navlink {
     margin: 0px 6px 0px 6px;
     padding: 0px 0px 0px 0px;
     text-decoration: underline 2px;
-}
-
-a:hover.navlink {
-    color: grey;
-    text-decoration: underline 2px grey;
 }
 
 /* contains header name and logo */
@@ -245,11 +253,6 @@ a:hover.navlink {
     margin: 0px 6px 0px 6px;
     padding: 0px 0px 0px 0px;
     text-decoration: underline 2px;
-}
-
-a:hover.navlink {
-    color: grey;
-    text-decoration: underline 2px grey;
 }
 
 /* contains header name and logo */
@@ -325,6 +328,13 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
     height: 80px;
     width: auto;
     margin: 15px;
+    opacity: 1;
+}
+
+.footerlogo:hover {
+    animation-name: hover;
+    animation-duration: .35s;
+    opacity: .8;
 }
 
 .footertext {
