@@ -440,21 +440,116 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    right: 50%;
-    bottom: 50%;
-    background-color: green;
-    width: 200px;
+    right: 25%;
+    bottom: 18%;
+    width: 300px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    background-color: rgba(225,225,225,.95);
+    opacity: 0;
+}
+
+.p-img:hover + .p-t-container {
+    transition: all .4s;
+    opacity: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+.p-t-container:hover {
+    transition: all .6s;
+    opacity: 100%;
+    transition-timing-function: ease-in-out;
 }
 
 .p-t-container h3 {
-    font-size: 1em;
+    font-size: 2em;
+    text-align: center;
 }
 
 .p-t-container p {
-    font-size: 1em;
+    text-align: center;
 }
 
-.p-link {
+.p-t-container a {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* ----- mobile breakpoint ----- */
+@media (max-width: 645px) {
+
+.p-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+}
+
+.p-project {
+    background-color: blue;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.img-container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    background-color: red;
+}
+
+.p-t-container {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    right: 25%;
+    bottom: 18%;
+    width: 300px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    background-color: rgba(225,225,225,.95);
+    opacity: 0;
+}
+
+.p-img:hover + .p-t-container {
+    transition: all .4s;
+    opacity: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+.p-t-container:hover {
+    transition: all .6s;
+    opacity: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+.p-t-container h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.p-t-container p {
+    text-align: center;
+}
+
+.p-t-container a {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 }
 
