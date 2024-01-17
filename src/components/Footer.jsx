@@ -1,6 +1,10 @@
 
 export default function Footer() {
   return (
+
+    <div className='footer-container'>
+
+
         <div className='footer'>
 
             <a className="footerlink" target='_blank' href="https://github.com/Mattmrob">
@@ -16,5 +20,9 @@ export default function Footer() {
             </a>
 
         </div>
+
+        <h3 className='footertext'>Find me on Github, LinkedIn, or through mmroberts</h3>
+
+      </div>
   );
 }

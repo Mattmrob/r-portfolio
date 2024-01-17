@@ -287,7 +287,17 @@ ul {
 
 /* ------------ FOOTER STARTS HERE --------------- */
 
-.footer{
+.footer-container{
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+padding: 12px 5px 5px 5px;
+margin: 10px 5px 5px 5px;
+border-top: solid rgb(20, 20, 20, .2) 2px;
+}
+
+.footer {
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -298,10 +308,12 @@ ul {
     width: auto;
     margin: 15px;
 }
-.footerlink {
-    color: red;
+
+.footertext {
+    font-size: 1.4em;
 }
 
+/* MOBILE BREAKPOINT */
 @media (max-width: 520px) {
     .footerlogo {
         height: 50px;
