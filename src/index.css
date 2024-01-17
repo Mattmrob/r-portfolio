@@ -322,10 +322,11 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 
 .footertext {
     font-size: 1.4em;
+    text-align: center;
 }
 
 /* MOBILE BREAKPOINT */
-@media (max-width: 520px) {
+@media (max-width: 550px) {
 
     .footerlogo {
         height: 50px;
@@ -338,3 +339,28 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 }
 
 /* ------------ FOOTER ENDS HERE --------------- */
+
+
+/* ------------ ABOUT ME PAGE STARTS HERE --------------- */
+
+.profileimg {
+    border-radius: 100%;
+    background-color: red;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.bodytxt {
+    font-size: 1.3em;
+    margin: 0px 20px 0px 20px;
+    padding: 0px
+}
+
+/* ------------ ABOUT ME PAGE ENDS HERE --------------- */
+
+.dred {
+    background-color: red;
+}
