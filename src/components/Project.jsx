@@ -21,8 +21,7 @@ function Project(props) {
                 <a target="_blank" href={project.deployment}>Deployment</a></p>
 
             </div>
-
-            </div>
+          </div>
           );
         })}
       </ul>
