@@ -391,6 +391,18 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 
 /* ------------ ABOUT ME PAGE ENDS HERE --------------- */
 
+
+/* ------------ PORTFOLIO STARTS HERE --------------- */
+
+.p-container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+/* ------------ PORTFOLIO ENDS HERE --------------- */
+
+
 .dred {
     background-color: red;
 }
