@@ -282,6 +282,17 @@ ul {
 
 }
 
+/* final adjustment when really small (so logo isnt weird) */
+@media (max-width: 322px) {
+    .logoimg {
+        display: none;
+    }
+
+    .header-name {
+        margin: 0px;
+    }
+}
+
 /* ------------ HEADER ENDS HERE --------------- */
 
 
@@ -315,8 +326,14 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 
 /* MOBILE BREAKPOINT */
 @media (max-width: 520px) {
+
     .footerlogo {
         height: 50px;
+    }
+
+    .footertext {
+        font-size: 1em;
+        text-align: center;
     }
 }
 
