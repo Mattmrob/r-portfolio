@@ -3,6 +3,13 @@
     --headerb: rgb(255,255,255,.8);
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
 
 /* ------------ HEADER STARTS HERE --------------- */
 
@@ -343,20 +350,33 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 
 /* ------------ ABOUT ME PAGE STARTS HERE --------------- */
 
+.profileimg-container {
+    text-align: center;
+}
+
 .profileimg {
     border-radius: 100%;
-    background-color: red;
     width: 100%;
 }
 
 .title {
     text-align: center;
+    padding: 0px 0px 20px 0px;
 }
 
 .bodytxt {
     font-size: 1.3em;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 20px 20px;
     padding: 0px
+}
+
+@media (max-width:767px) {
+
+.profileimg {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
 }
 
 /* ------------ ABOUT ME PAGE ENDS HERE --------------- */
