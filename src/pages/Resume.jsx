@@ -28,7 +28,7 @@ export default function ResumePage() {
           <div className="col-md-6 experience">
             <h3>Experience</h3>
             <ul>
-              <li>UC Berkeley Full-Stack Bootcamp - 6 months</li>
+              <li>UC Berkeley Full-Stack Bootcamp - Ongoing / 6 months</li>
               <li>Web Design Internship with Company 'MDout' - 2 months</li>
               <li>mmroberts Business Site Developement - Ongoing</li>
             </ul>
@@ -46,6 +46,7 @@ export default function ResumePage() {
               <li>Print-Ready or Web-Ready Quality</li>
               <li>Original Vector Graphics</li>
               <li>Logos, Fliers, Banners, Business Cards, Vehicle Wraps, Signs, Books</li>
+              <li>Character / Mascot Illustration</li>
             </ul>
           </div>
 
@@ -54,7 +55,7 @@ export default function ResumePage() {
             <ul>
               <li>Designer / Production Manager - Print Club - 2 Years</li>
               <li>Designer / Owner - mmroberts Design Services - Ongoing / 1 Year</li>
-              <li>Bachelor of Fine Arts from California State East Bay - Graduation in 2019</li>
+              <li>Bachelor of Fine Arts in Graphic Design, California State East Bay - Graduation in 2019</li>
             </ul>
           </div>
         </div>
