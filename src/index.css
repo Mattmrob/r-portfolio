@@ -676,6 +676,10 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
     border-radius: 20px;
 }
 
+#submit:hover {
+    color: grey;
+}
+
 /* ------------ CONTACT ME ENDS HERE --------------- */
 
 
