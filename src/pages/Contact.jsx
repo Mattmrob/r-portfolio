@@ -96,7 +96,7 @@ export default function ContactPage() {
             />
 
 
-            <button type="submit">
+            <button id="submit" type="submit">
               Submit!
             </button>
 
