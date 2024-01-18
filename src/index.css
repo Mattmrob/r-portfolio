@@ -414,7 +414,7 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 }
 
 .p-project {
-    width: 100vw;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     flex-basis: 40%;
@@ -554,6 +554,69 @@ border-top: solid rgb(20, 20, 20, .2) 2px;
 }
 
 /* ------------ PORTFOLIO ENDS HERE --------------- */
+
+
+/* ------------ RESUME STARTS HERE --------------- */
+
+.resume-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.resume-blurb {
+    font-size: 1.2em;
+    margin: 0px 50px 35px 50px;
+    text-align: center;
+}
+
+.resume-download {
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+.experience {
+    text-align: center;
+}
+
+.p-container a {
+    border: 1px solid black;
+    padding: 7px 10px 7px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.p-container h2 {
+    font-size: 1.8em;
+    margin: 0px;
+    padding: 50px 0px 8px 0px;
+}
+
+.p-container .row {
+    border-top: 1px solid black;
+}
+
+.p-container h3 {
+    border-bottom: solid rgba(0,0,0,.3) 1px;
+    margin: 0px 20px 8px 20px;
+    padding: 25px 0px 5px 0px;
+}
+
+.p-container ul {
+    padding: 0px;
+    margin: 5px 10px 5px 10px;
+}
+
+.p-container li {
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* ------------ RESUME ENDS HERE --------------- */
 
 
 .dred {
