@@ -7,7 +7,7 @@ export default function AboutPage() {
 
           <div className="col-md-3 d-flex justify-content-center">
             <div className="profileimg-container">
-              <img className="profileimg" src="./src/assets/imgs/profileimg.jpg" alt="A picture of myself" />
+              <img className="profileimg" src="/assets/imgs/profileimg.jpg" alt="A picture of myself" />
             </div>
           </div>
 

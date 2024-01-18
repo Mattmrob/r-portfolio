@@ -32,7 +32,7 @@ export default function Header() {
     </div>
 
     <div className='header-n-container'>
-      <img className="logoimg" src="./src/assets/imgs/mmrobertslogo.svg"></img>
+      <img className="logoimg" src="/assets/imgs/mmrobertslogo.svg"></img>
       <h2 className="header-name">Matthew M. Roberts</h2>
     </div>
   </div>
